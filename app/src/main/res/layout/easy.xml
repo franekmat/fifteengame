@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4a4a4a">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/b0"
+                style="@style/button_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/red_button"
+                android:onClick="click0"
+                android:text="@string/_0"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/b1"
+                style="@style/button_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/red_button"
+                android:onClick="click1"
+                android:text="@string/_1" />
+
+            <Button
+                android:id="@+id/b2"
+                style="@style/button_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/red_button"
+                android:onClick="click2"
+                android:text="@string/_2" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/b3"
+                style="@style/button_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/red_button"
+                android:onClick="click3"
+                android:text="@string/_3" />
+
+            <Button
+                android:id="@+id/b4"
+                style="@style/button_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/red_button"
+                android:onClick="click4"
+                android:text="@string/_4" />
+
+            <Button
+                android:id="@+id/b5"
+                style="@style/button_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/red_button"
+                android:onClick="click5"
+                android:text="@string/_5" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/b6"
+                style="@style/button_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/red_button"
+                android:onClick="click6"
+                android:text="@string/_6" />
+
+            <Button
+                android:id="@+id/b7"
+                style="@style/button_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/red_button"
+                android:onClick="click7"
+                android:text="@string/_7" />
+
+            <Button
+                android:id="@+id/b8"
+                style="@style/button_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/red_button"
+                android:onClick="click8"
+                android:text="@string/_8" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/blos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/red_button"
+        android:onClick="brand"
+        android:text="New game"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tableLayout"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/moves"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Moves: 0"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+
+        <Chronometer
+            android:id="@+id/chronometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

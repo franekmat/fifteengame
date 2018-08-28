@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Fifteen</string>
+    <string name="hard">Hard</string>
+    <string name="medium">Medium</string>
+    <string name="help">Help</string>
+    <string name="easy">Easy</string>
+    <string name="_0">0</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="moves_0">Moves: 0</string>
+    <string name="random">Random</string>
+    <string name="Rules">There are X* tiles numbered from 1 to X and the (X + 1)th place is empty. Before play begins the tiles are randomly scrambled by sliding to any starting position. The object of the game is to unscramble the tiles by sliding to get them into consecutive order, with the space in the bottom right or in the top left. \n\n*X is equal to 8 in the easy mode, 15 in the medium mode and 24 in the hard mode.</string>
+    <string name="high_scores">High Scores</string>
+</resources>

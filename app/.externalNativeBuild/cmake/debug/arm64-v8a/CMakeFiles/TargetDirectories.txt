@@ -1,0 +1,3 @@
+/Users/Franek/Desktop/PROJEKTYDOWYSLANIA/JNPandroid/FifteenGame/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/Franek/Desktop/PROJEKTYDOWYSLANIA/JNPandroid/FifteenGame/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/Franek/Desktop/PROJEKTYDOWYSLANIA/JNPandroid/FifteenGame/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/native-lib.dir

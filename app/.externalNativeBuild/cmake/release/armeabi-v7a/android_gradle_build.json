@@ -1,0 +1,41 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/Franek/Desktop/PROJEKTYDOWYSLANIA/JNPandroid/FifteenGame/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/Franek/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/Franek/Desktop/PROJEKTYDOWYSLANIA/JNPandroid/FifteenGame/app/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/Franek/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/Franek/Desktop/PROJEKTYDOWYSLANIA/JNPandroid/FifteenGame/app/.externalNativeBuild/cmake/release/armeabi-v7a --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/Franek/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/Franek/Library/Android/sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/Franek/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/Franek/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/Franek/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/Franek/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++14 -frtti -fexceptions -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/Franek/Desktop/PROJEKTYDOWYSLANIA/JNPandroid/FifteenGame/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/Franek/Desktop/PROJEKTYDOWYSLANIA/JNPandroid/FifteenGame/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/Franek/Desktop/PROJEKTYDOWYSLANIA/JNPandroid/FifteenGame/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so",
+			"toolchain" : "13691386773251222445"
+		}
+	},
+	"toolchains" : 
+	{
+		"13691386773251222445" : 
+		{
+			"cCompilerExecutable" : "/Users/Franek/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/Franek/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
